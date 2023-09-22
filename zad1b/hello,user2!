@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <p id="output"></p>
+
+  <script>
+        let message1 = prompt("Введите ваше имя:");
+
+        let message2 = "Привет, " + userName + "!";
+
+    document.getElementById("output").textContent = message2;
+  </script>
+
+</body>
+</html>
