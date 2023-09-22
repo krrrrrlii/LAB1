@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Добро пожаловать!</title>
+</head>
+<body>
+    <script>
+        let message = prompt("Введите ваше имя");
+        alert("Привет, " + message + "!");
+    </script>
+</body>
+</html>
